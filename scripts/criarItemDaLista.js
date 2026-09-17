@@ -38,5 +38,8 @@ inputCheckbox.addEventListener("click", function() {
     itemData.classList.add("texto-data")
     itemDaLista.appendChild(itemData)
 
+    inputItem.value = "";
+    inputItem.focus();
+
    return itemDaLista;
 }
